@@ -60,14 +60,14 @@ gestorDeUsuarios.create({
   photo: "https://concepto.de/wp-content/uploads/2018/08/persona-e1533759204552.jpg",
   email: "jose.erices.gonzalez@gmail.com",
   password: "12345678a",
-  role: "Admin"
+  role: "Jefe de Unidad"
 });
 
 gestorDeUsuarios.create({
   photo: "https://blog.hubspot.es/hubfs/media/buyerpersona.jpeg",
   email: "carolina.pino.navarro@gmail.com",
   password: "98765432a",
-  role: "Admin"
+  role: "Controller"
 });
 
 console.log(gestorDeUsuarios.read());
