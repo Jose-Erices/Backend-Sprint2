@@ -110,7 +110,7 @@ class Product {
     gestorDeProductos.getAllProducts()
   );
   
-  // Obtiene el número total de productos y el precio total sin sumar la cantidad de stock 
+  // Obtiene el número total de productoss y el precio total sin sumar la cantidad de stock 
   console.log("Total de productos:", gestorDeProductos.getTotalProducts());
   console.log("Precio total de los productos:", gestorDeProductos.getTotalPrice());
   
