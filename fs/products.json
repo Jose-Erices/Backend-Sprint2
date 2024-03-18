@@ -1,0 +1,90 @@
+[
+  {
+    "id": "3e3472b4647aba0193a9be5b",
+    "title": "Master Dog",
+    "photo": "/img/Master Dog.jpg",
+    "category": "Alimento de perro",
+    "price": 25000,
+    "stock": 29
+  },
+  {
+    "id": "239df67aff04d02125359889",
+    "title": "Dog Chow",
+    "photo": "/img/Dog Chow.jpg",
+    "category": "Alimento de perro",
+    "price": 34000,
+    "stock": 49
+  },
+  {
+    "id": "30e059f2decfd680261191be",
+    "title": "Pro Plan",
+    "photo": "/img/Pro Plan.jpg",
+    "category": "Alimento de Cachorro",
+    "price": 33500,
+    "stock": 20
+  },
+  {
+    "id": "0713cbfaabbfb966f19c8864",
+    "title": "Royal Canin",
+    "photo": "/img/Royal Canin.jpg",
+    "category": "Alimento de Cachorro",
+    "price": 33500,
+    "stock": 14
+  },
+  {
+    "id": "9dd2a8b5ea4e5b0d915c722d",
+    "title": "Happy Dog",
+    "photo": "/img/Happy Dog.jpg",
+    "category": "Alimento Perro",
+    "price": 39000,
+    "stock": 20
+  },
+  {
+    "id": "fe5f46d49c6ccbd270e48208",
+    "title": "Cat Lover",
+    "photo": "/img/Cat Lover.jpg",
+    "category": "Alimento de Gato",
+    "price": 29900,
+    "stock": 13
+  },
+  {
+    "id": "98e23c2eba5a2e5ee1f01f22",
+    "title": "Whiskas",
+    "photo": "/img/Whiskas.jpg",
+    "category": "Alimento de Gato",
+    "price": 38000,
+    "stock": 9
+  },
+  {
+    "id": "7a53fa6544fcabcad311f3e7",
+    "title": "Mascotin",
+    "photo": "/img/Master Dog.jpg",
+    "category": "Alimento de Gato",
+    "price": 34000,
+    "stock": 49
+  },
+  {
+    "id": "e813535e602e9263e363734f",
+    "title": "LoverGat",
+    "photo": "/img/LoverGat.jpg",
+    "category": "Alimento de perro",
+    "price": 38000,
+    "stock": 9
+  },
+  {
+    "id": "b9cf68fa6d8cb5248c77c53d",
+    "title": "Arena de Gato",
+    "photo": "/img/Arena de Gato.jpg",
+    "category": "Accesorios",
+    "price": 15000,
+    "stock": 2
+  },
+  {
+    "id": "e297988a4004c42908a731d9",
+    "title": "Correa de perros",
+    "photo": "/img/Correa de perros.jpg",
+    "category": "Accesorios",
+    "price": 30000,
+    "stock": 15
+  }
+]

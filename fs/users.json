@@ -1,0 +1,37 @@
+[
+  {
+    "id": "dfb2d242974692709e5d0ee5",
+    "photo": "https://concepto.de/wp-content/uploads/2018/08/persona-e1533759204552.jpg",
+    "email": "jose.erices.gonzalez@gmail.com",
+    "password": "12345678a",
+    "role": "Admin"
+  },
+  {
+    "id": "2af8a17cc35c0845e9294878",
+    "photo": "https://blog.hubspot.es/hubfs/media/buyerpersona.jpeg",
+    "email": "carolina.pino.navarro@gmail.com",
+    "password": "98765432a",
+    "role": "Admin"
+  },
+  {
+    "id": "2dd25dc360cded5cdcbfc166",
+    "photo": "https://th.bing.com/th/id/R.976bc1f02f9e2dd9989a0d079d22b893?rik=3TSjgIFFOqDN6g&pid=ImgRaw&r=0",
+    "email": "manuel.sanchez@gmail.com",
+    "password": "MSanchez1",
+    "role": "Controller"
+  },
+  {
+    "id": "09aeb7b443adb93e626db2a0",
+    "photo": "https://img.freepik.com/foto-gratis/retrato-mujer-casual-sonriente_171337-4168.jpg",
+    "email": "fabiola.erices@gmail.com",
+    "password": "FErices39",
+    "role": "Ejecutivo"
+  },
+  {
+    "id": "0836defe8eaae7256c56adfd",
+    "photo": "https://media.istockphoto.com/id/1364917563/es/foto/hombre-de-negocios-sonriendo-con-los-brazos-cruzados-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=NqMHLF8T4RzPaBE_WMnflSGB_1-kZZTQgAkekUxumZg=",
+    "email": "leturia.bravo@gmail.com",
+    "password": "LBravo21",
+    "role": "Jefe de Unidad "
+  }
+]
