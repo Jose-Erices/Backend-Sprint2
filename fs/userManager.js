@@ -121,6 +121,18 @@ async function test() {
       password: "MSanchez1",
       role: "Controller",
     });
+    await users.create({
+      photo: "https://media.istockphoto.com/id/1331257339/es/foto/retrato-de-un-hombre-maduro-feliz-con-gafas-y-mirando-a-la-c%C3%A1mara-en-el-interior.jpg?s=612x612&w=0&k=20&c=L8-INEObvr241FCxSZMlKE_S40aC2-rTuBnzG4hEJqg=",
+      email: "manuel.benitez@gmail.com",
+      password: "Mbenitez",
+      role: "Abogado",
+    });
+    await users.create({
+      photo: "https://s3.abcstatics.com/media/summum/2021/10/01/maxi_iglesias-kU2E--1248x698@abc.jpeg",
+      email: "alejandroM@gmail.com",
+      password: "Alejan2",
+      role: "Contabilidad",
+    });
     await users.read();
     await users.destroy("9e933752095e33945075b83b5");
     const third = await users.create({

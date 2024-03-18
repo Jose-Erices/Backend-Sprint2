@@ -66,8 +66,31 @@ gestorDeUsuarios.create({
 gestorDeUsuarios.create({
   photo: "https://blog.hubspot.es/hubfs/media/buyerpersona.jpeg",
   email: "carolina.pino.navarro@gmail.com",
-  password: "98765432a",
+  password: "98765432aqwd",
   role: "Controller"
 });
-
+gestorDeUsuarios.create({
+  photo: "https://blog.hubspot.es/hubfs/media/buyerpersona.jpeg",
+  email: "carolina.pino.navarro@gmail.com",
+  password: "98765432aedw",
+  role: "Controller"
+});
+gestorDeUsuarios.create({
+  photo: "https://s3.abcstatics.com/media/summum/2021/10/01/maxi_iglesias-kU2E--1248x698@abc.jpeg",
+      email: "lorenzo.guarda@gmail.com",
+      password: "lore23678edd",
+      role: "Scrum Master",
+});
+gestorDeUsuarios.create({
+  photo: "https://img.freepik.com/foto-gratis/retrato-mujer-casual-sonriente_171337-4168.jpg",
+  email: "fabiola.erices@gmail.com",
+  password: "FErices39deqwed",
+  role: "Ejecutivo",
+});
+gestorDeUsuarios.create({
+  photo: "https://s3.abcstatics.com/media/summum/2021/10/01/maxi_iglesias-kU2E--1248x698@abc.jpeg",
+  email: "alejandroM@gmail.com",
+  password: "Alejan2eqdwdc",
+  role: "Contabilidad",
+});
 console.log(gestorDeUsuarios.read());

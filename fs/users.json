@@ -1,34 +1,48 @@
 [
   {
-    "id": "dfb2d242974692709e5d0ee5",
+    "id": "92e8067876d65c88a641e095",
     "photo": "https://concepto.de/wp-content/uploads/2018/08/persona-e1533759204552.jpg",
     "email": "jose.erices.gonzalez@gmail.com",
     "password": "12345678a",
     "role": "Admin"
   },
   {
-    "id": "2af8a17cc35c0845e9294878",
+    "id": "ec337a45aaed87a093f7dfe8",
     "photo": "https://blog.hubspot.es/hubfs/media/buyerpersona.jpeg",
     "email": "carolina.pino.navarro@gmail.com",
     "password": "98765432a",
     "role": "Admin"
   },
   {
-    "id": "2dd25dc360cded5cdcbfc166",
+    "id": "28356fa5fdb1ef542dc787aa",
     "photo": "https://th.bing.com/th/id/R.976bc1f02f9e2dd9989a0d079d22b893?rik=3TSjgIFFOqDN6g&pid=ImgRaw&r=0",
     "email": "manuel.sanchez@gmail.com",
     "password": "MSanchez1",
     "role": "Controller"
   },
   {
-    "id": "09aeb7b443adb93e626db2a0",
+    "id": "5783d00062734a1f306d10d3",
+    "photo": "https://media.istockphoto.com/id/1331257339/es/foto/retrato-de-un-hombre-maduro-feliz-con-gafas-y-mirando-a-la-c%C3%A1mara-en-el-interior.jpg?s=612x612&w=0&k=20&c=L8-INEObvr241FCxSZMlKE_S40aC2-rTuBnzG4hEJqg=",
+    "email": "manuel.benitez@gmail.com",
+    "password": "Mbenitez",
+    "role": "Abogado"
+  },
+  {
+    "id": "2a00a443454de1421e8676a0",
+    "photo": "https://s3.abcstatics.com/media/summum/2021/10/01/maxi_iglesias-kU2E--1248x698@abc.jpeg",
+    "email": "alejandroM@gmail.com",
+    "password": "Alejan2",
+    "role": "Contabilidad"
+  },
+  {
+    "id": "99f52ababa1b767a413bac78",
     "photo": "https://img.freepik.com/foto-gratis/retrato-mujer-casual-sonriente_171337-4168.jpg",
     "email": "fabiola.erices@gmail.com",
     "password": "FErices39",
     "role": "Ejecutivo"
   },
   {
-    "id": "0836defe8eaae7256c56adfd",
+    "id": "abe9e8ba3bc52ceb43c7519d",
     "photo": "https://media.istockphoto.com/id/1364917563/es/foto/hombre-de-negocios-sonriendo-con-los-brazos-cruzados-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=NqMHLF8T4RzPaBE_WMnflSGB_1-kZZTQgAkekUxumZg=",
     "email": "leturia.bravo@gmail.com",
     "password": "LBravo21",
