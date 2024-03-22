@@ -1,0 +1,162 @@
+[
+  {
+    "id": "9f280cde17ef277a3481e784",
+    "title": "Master Dog",
+    "photo": "/img/Master Dog.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 25000,
+    "stock": 29
+  },
+  {
+    "id": "a3e6c21ad2026205a6db1e6a",
+    "title": "Dog Chow",
+    "photo": "/img/Dog Chow.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 34000,
+    "stock": 49
+  },
+  {
+    "id": "68c262d42bf37ffe28d3057b",
+    "title": "Pro Plan",
+    "photo": "/img/Pro Plan.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 33500,
+    "stock": 20
+  },
+  {
+    "id": "e53dbffe03a26ea567cf177a",
+    "title": "Royal Canin",
+    "photo": "/img/Royal Canin.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 33500,
+    "stock": 14
+  },
+  {
+    "id": "85a959b7e237641944c753d7",
+    "title": "Happy Dog",
+    "photo": "/img/Happy Dog.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 39000,
+    "stock": 20
+  },
+  {
+    "id": "12c39362f987cc074bef9586",
+    "title": "Cat Lover",
+    "photo": "/img/Cat Lover.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 29900,
+    "stock": 13
+  },
+  {
+    "id": "982f9ce265436dba83ed5025",
+    "title": "Whiskas",
+    "photo": "/img/Whiskas.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 38000,
+    "stock": 9
+  },
+  {
+    "id": "b8d83156a4fc9d709871b763",
+    "title": "Mascotin",
+    "photo": "/img/Master Dog.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 34000,
+    "stock": 49
+  },
+  {
+    "id": "3339ab7fc7b160816e539e06",
+    "title": "LoverGat",
+    "photo": "/img/LoverGat.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 38000,
+    "stock": 9
+  },
+  {
+    "id": "a6519e7808ad4441646a363f",
+    "title": "Arena de Gato",
+    "photo": "/img/Arena de Gato.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 15000,
+    "stock": 2
+  },
+  {
+    "id": "a92253a67cada0f3875aaf6a",
+    "title": "correa de perro",
+    "photo": "/img/correa de perro.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 15000,
+    "stock": 2
+  },
+  {
+    "id": "388145714e2b43d937b937f3",
+    "title": "Hueso de perro",
+    "photo": "/img/Hueso de perro.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 15000,
+    "stock": 2
+  },
+  {
+    "id": "6341a3296629a35555bc7b7e",
+    "title": "Ropa de perro",
+    "photo": "/img/Ropa de perro.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 7000,
+    "stock": 20
+  },
+  {
+    "id": "217a860ecf12e559e3a9f9d9",
+    "title": "Premio de perro",
+    "photo": "/img/Premio de perro.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 5000,
+    "stock": 80
+  },
+  {
+    "id": "fff1f3f8f2e5da2a9b55177b",
+    "title": "Cama de perro",
+    "photo": "/img/Cama de perro.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 10000,
+    "stock": 67
+  },
+  {
+    "id": "b0d0e9517a5421144543e605",
+    "title": "Cama de Gato",
+    "photo": "/img/Cama de Gato.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 9000,
+    "stock": 30
+  },
+  {
+    "id": "168dee443cd355aa4f73345d",
+    "title": "Premio de Gato",
+    "photo": "/img/Premio de Gato.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 17000,
+    "stock": 20
+  },
+  {
+    "id": "7b5590683658cfed8a9051ce",
+    "title": "Bañera de Gato",
+    "photo": "/img/Bañera de gato.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 10000,
+    "stock": 5
+  },
+  {
+    "id": "374cc11ddcdc1cc5c75e3f87",
+    "title": "Bañera de perro",
+    "photo": "/img/Bañera de perro.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 12000,
+    "stock": 10
+  },
+  {
+    "id": "3b89969e54093a18034c4ebd",
+    "title": "Correa de perros",
+    "photo": "/img/Correa de perros.jpg",
+    "category": "Alimento y accesorios de mascotas",
+    "price": 30000,
+    "stock": 15
+  }
+]
