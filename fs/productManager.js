@@ -106,70 +106,140 @@ async function test() {
     await product.create({
       title:"Master Dog",
       photo: "/img/Master Dog.jpg",
-      category:"Alimento de perro",
+      category:"Alimento y accesorios de mascotas",
       price: 25000,
       stock: 29,
     });
     await product.create({
       title:"Dog Chow",
       photo: "/img/Dog Chow.jpg",
-      category:"Alimento de perro",
+      category:"Alimento y accesorios de mascotas",
       price: 34000,
       stock: 49,
     });
     await product.create({
       title:"Pro Plan",
       photo: "/img/Pro Plan.jpg",
-      category:"Alimento de Cachorro",
+      category:"Alimento y accesorios de mascotas",
       price:  33500,
       stock: 20,
     });
     await product.create({
       title: "Royal Canin",
       photo: "/img/Royal Canin.jpg",
-      category:"Alimento de Cachorro",
+      category:"Alimento y accesorios de mascotas", 
       price: 33500,
       stock: 14,
     });
     await product.create({
       title:"Happy Dog",
       photo: "/img/Happy Dog.jpg",
-      category:"Alimento Perro",
+      category:"Alimento y accesorios de mascotas",
       price: 39000,
       stock: 20,
     });
     await product.create({
       title:"Cat Lover",
       photo: "/img/Cat Lover.jpg",
-      category:"Alimento de Gato",
+      category:"Alimento y accesorios de mascotas",
       price: 29900,
       stock: 13,
     });
     await product.create({
       title:"Whiskas",
       photo: "/img/Whiskas.jpg",
-      category:"Alimento de Gato",
+      category:"Alimento y accesorios de mascotas",
       price: 38000,
       stock: 9, 
     });
     await product.create({
       title:"Mascotin",
       photo: "/img/Master Dog.jpg",
-      category:"Alimento de Gato",
+      category:"Alimento y accesorios de mascotas",
       price: 34000,
       stock: 49,
     });
     await product.create({
       title:"LoverGat",
       photo: "/img/LoverGat.jpg",
-      category:"Alimento de perro",
+      category:"Alimento y accesorios de mascotas",
       price: 38000,
       stock: 9,
     });
     await product.create({
       title:"Arena de Gato",
       photo: "/img/Arena de Gato.jpg",
-      category:"Accesorios",
+      category:"Alimento y accesorios de mascotas",
+      price: 15000,
+      stock: 2,
+    });
+    await product.create({
+      title:"correa de perro",
+      photo: "/img/correa de perro.jpg",
+      category:"Alimento y accesorios de mascotas",
+      price: 15000,
+      stock: 2,
+    });
+    await product.create({
+      title:"Hueso de perro",
+      photo: "/img/Hueso de perro.jpg",
+      category:"Alimento y accesorios de mascotas",
+      price: 15000,
+      stock: 2,
+    });
+    await product.create({
+      title:"Ropa de perro",
+      photo: "/img/Ropa de perro.jpg",
+      category:"Alimento y accesorios de mascotas",
+      price: 7000,
+      stock: 20,
+    });
+    await product.create({
+      title:"Premio de perro",
+      photo: "/img/Premio de perro.jpg",
+      category:"Alimento y accesorios de mascotas",
+      price: 5000,
+      stock: 80,
+    });
+    await product.create({
+      title:"Cama de perro",
+      photo: "/img/Cama de perro.jpg",
+      category:"Alimento y accesorios de mascotas",
+      price: 10000,
+      stock: 67,
+    });
+    await product.create({
+      title:"Cama de Gato",
+      photo: "/img/Cama de Gato.jpg",
+      category:"Alimento y accesorios de mascotas",
+      price: 9000,
+      stock: 30,
+    });
+    await product.create({
+      title:"Premio de Gato",
+      photo: "/img/Premio de Gato.jpg",
+      category:"Alimento y accesorios de mascotas",
+      price: 17000,
+      stock: 20,
+    });
+    await product.create({
+      title:"Bañera de Gato",
+      photo: "/img/Bañera de gato.jpg",
+      category:"Alimento y accesorios de mascotas",
+      price: 10000,
+      stock: 5,
+    });
+    await product.create({
+      title:"Bañera de perro",
+      photo: "/img/Bañera de perro.jpg",
+      category:"Alimento y accesorios de mascotas",
+      price: 12000,
+      stock: 10,
+    });
+    await product.create({
+      title:"Arena de Gato",
+      photo: "/img/Arena de Gato.jpg",
+      category:"Alimento y accesorios de mascotas",
       price: 15000,
       stock: 2,
     });
@@ -177,7 +247,7 @@ async function test() {
     await product.create({
       title:"Correa de perros",
       photo: "/img/Correa de perros.jpg",
-      category:"Accesorios",
+      category:"Alimento y accesorios de mascotas",
       price: 30000,
       stock: 15,
     });
@@ -191,3 +261,5 @@ async function test() {
   }
 }
 test();
+
+

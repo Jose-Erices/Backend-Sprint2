@@ -1,5 +1,5 @@
 import express from "express"
-import notesManager from "./data/fs/NotesManager.fs.js";
+import productManager from "./data/fs/ProductManager.fs.js";
 /* import nombreModulo from "nombreModulo" */
 /* import archivo from "/ruta/alArchivo/archivo.js" */
 
@@ -35,7 +35,7 @@ server.get("/", async (requerimientos, respuesta) => {
 server.get("/api/title", async (req, res) => {
     try {
         const { category } = req.query
-        const all = await notesManager.read(category)
+        const all = await productManager.read(category)
         if (all.length !== 0) {
             return res.status(200).json({
                 response: all,
@@ -43,7 +43,7 @@ server.get("/api/title", async (req, res) => {
                 success: true
             })
         } else {
-            const error = new Error("NOT FOUND")
+            const error = new Error("NOT FOUND query")
             error.statusCode = 404
             throw error
         }
@@ -60,7 +60,7 @@ server.get("/api/title", async (req, res) => {
 server.get("/api/title/:pid", async (req, res) => {
     try {
         const { pid } = req.params
-        const one = await notesManager.readOne(pid)
+        const one = await productManager.readOne(pid)
         if (one) {
             return res.status(200).json({
                 response: one,
@@ -81,11 +81,11 @@ server.get("/api/title/:pid", async (req, res) => {
 })
 
 //dos parámetros
-server.get("/api/title/:text/:category", async (req, res) => {
+server.get("/api/title/:title/:category", async (req, res) => {
     try {
-        const { text, category } = req.params
-        const data = { text, category }
-        const one = await notesManager.create(data)
+        const { title, category } = req.params
+        const data = { title, category }
+        const one = await productManager.create(data)
         return res.status(201).json({
             response: one,
             success: true
