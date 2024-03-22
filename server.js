@@ -1,6 +1,5 @@
 import express from "express"
 import productManager from "./data/fs/ProductManager.fs.js";
-
 /* import nombreModulo from "nombreModulo" */
 /* import archivo from "/ruta/alArchivo/archivo.js" */
 
@@ -33,12 +32,10 @@ server.get("/", async (requerimientos, respuesta) => {
     }
 })
 
-server.get("/api/products", async (req, res) => {
+server.get("/api/title", async (req, res) => {
     try {
-        const { category, } = req.query
-        const all = await productManager.read(category,)
-        
-
+        const { category } = req.query
+        const all = await productManager.read(category)
         if (all.length !== 0) {
             return res.status(200).json({
                 response: all,
@@ -59,9 +56,8 @@ server.get("/api/products", async (req, res) => {
     }
 })
 
-
 //un parametro
-server.get("/api/products/:pid", async (req, res) => {
+server.get("/api/title/:pid", async (req, res) => {
     try {
         const { pid } = req.params
         const one = await productManager.readOne(pid)
@@ -84,12 +80,11 @@ server.get("/api/products/:pid", async (req, res) => {
     }
 })
 
-
 //dos parámetros
-server.get("/api/products/:products/:category", async (req, res) => {
+server.get("/api/title/:title/:category", async (req, res) => {
     try {
-        const { products, category } = req.params
-        const data = { products, category }
+        const { title, category } = req.params
+        const data = { title, category }
         const one = await productManager.create(data)
         return res.status(201).json({
             response: one,
@@ -103,5 +98,7 @@ server.get("/api/products/:products/:category", async (req, res) => {
         })
     }
 })
+
+
 
 
