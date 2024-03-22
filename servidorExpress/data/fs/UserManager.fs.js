@@ -1,7 +1,7 @@
 import fs from "fs";
 import crypto from "crypto";
 
-class userManager {
+class UsersManager {
     constructor() {
         this.path = "./data/fs/files/users.json";
         this.init();
@@ -23,7 +23,7 @@ class userManager {
             if (!data.text) {
                 throw new Error("INGRESE TEXT");
             } else {
-                const user= {
+                const users= {
                     id: crypto.randomBytes(12).toString("hex"),
                     photo: data.photo,
                     email: data.email,
@@ -33,10 +33,10 @@ class userManager {
                 };
                 let all = await fs.promises.readFile(this.path, "utf-8");
                 all = JSON.parse(all);
-                all.push(user);
+                all.push(users);
                 all = JSON.stringify(all, null, 2);
                 await fs.promises.writeFile(this.path, all);
-                return user;
+                return users;
             }
         } catch (error) {
             console.log(error);
@@ -44,11 +44,11 @@ class userManager {
         }
     }
 
-    async read(role = "Controller") {
+    async read(rol = "Controller") {
         try {
             let all = await fs.promises.readFile(this.path, "utf-8");
             all = JSON.parse(all);
-            role && (all = all.filter(each => each.category === role));
+            rol && (all = all.filter(each => each.role === rol));
             return all;
         } catch (error) {
             console.log(error);
@@ -60,8 +60,8 @@ class userManager {
         try {
             let all = await fs.promises.readFile(this.path, "utf-8");
             all = JSON.parse(all);
-            let user = all.find((each) => each.id === id);
-            return user;
+            let users = all.find((each) => each.id === id);
+            return users;
         } catch (error) {
             console.log(error);
             return error;
@@ -72,24 +72,24 @@ class userManager {
         try {
             let all = await fs.promises.readFile(this.path, "utf-8");
             all = JSON.parse(all);
-            let user = all.find((each) => each.id === id);
-            if (user) {
+            let users = all.find((each) => each.id === id);
+            if (users) {
                 let filtered = all.filter((each) => each.id !== id);
                 filtered = JSON.stringify(filtered, null, 2);
                 await fs.promises.writeFile(this.path, filtered);
             }
-            return user;
+            return users;
         } catch (error) {
             console.log(error);
             return error;
         }
     }
 }
-// creación del archivo con
+// creación del archivo con el node 
 
 async function set() {
     try {
-        const userManager = new userManager();
+        const usersManager = new UsersManager();
 
       await gestorDeUsuarios.create({
         photo: "https://img.freepik.com/foto-gratis/retrato-mujer-casual-sonriente_171337-4168.jpg",
@@ -124,9 +124,9 @@ async function set() {
         role: "Controller",
       });
 
-        await userManager.readOne("d0f982cafb2ef32acb24fad2"); // Ajusta el ID según tus necesidades
-        await userManager.readOne(third.id); // Ajusta según tus necesidades
-        await userManager.destroy(third.id); // Ajusta según tus necesidades
+        await usersManager.readOne("d216d6d9b20f916f3f29893"); // Ajusta el ID según tus necesidades
+        await usersManager.readOne(third.id); // Ajusta según tus necesidades
+        await usersManager.destroy(third.id); // Ajusta según tus necesidades
     } catch (error) {
         console.log(error);
     }
@@ -134,5 +134,5 @@ async function set() {
 
 set();
 
-const userManager = new userManager();
+const userManager = new UsersManager();
 export default userManager;
